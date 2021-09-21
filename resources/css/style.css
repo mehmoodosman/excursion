@@ -1,17 +1,89 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: black;
     text-align: center;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 a {
-    text-decoration: underline;
-    font-size: 16px;
+    text-decoration: none;
+    font-size: 1rem;
     color: aquamarine;
+    margin: 1rem 0;
+}
+
+video {
+    margin: 1rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2.625rem;
+}
+
+p {
+    font-size: 1.3125rem;
+    color: gray;
+}
+
+.phone {
+    margin-top: 2rem;
+}
+
+.copyright {
+    text-align: right;
+    margin-right: 2rem;
+}
+
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color:white;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+a.aquamarine
+{
+    position: relative;
+}
+
+a.aquamarine:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color:aquamarine;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.aquamarine:hover:before {
+    visibility: visible;
+    width: 100%;
 }
