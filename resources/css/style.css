@@ -112,17 +112,17 @@ a.aquamarine:hover:before {
     }
 
     video {
-        width: 70%;
-        height: auto;
-    }
-
-    main img {
         width: 90%;
         height: auto;
     }
 
+    main img {
+        width: 95%;
+        height: auto;
+    }
+
     .phone {
-        width: 7%;
+        width: 5%;
         height: auto;
         margin-top: 2rem;
     }
