@@ -2,12 +2,6 @@ html {
     font-size: 16px;
 }
 
-@media screen and (max-width: 570px) {
-    html {
-        font-size: 10px;
-    }
-}
-
 body {
     background-color: black;
     text-align: center;
@@ -28,8 +22,7 @@ a {
 }
 
 video {
-    margin: 1rem auto;
-    width: 30%;
+    margin: 1rem;
 }
 
 h2 {
@@ -99,4 +92,29 @@ a.aquamarine:before {
 a.aquamarine:hover:before {
     visibility: visible;
     width: 100%;
+}
+@media screen and (max-width: 570px) {
+    html {
+        font-size: 10px;
+    }
+   
+    h1 {
+        font-size: 3rem;
+    }
+
+    video {
+        width: 50%;
+        height: auto;
+    }
+
+    main img {
+        width: 80%;
+        height: auto;
+    }
+
+    .phone {
+        width: 10%;
+        height: auto;
+    }
+
 }
