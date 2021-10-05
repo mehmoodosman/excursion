@@ -93,6 +93,11 @@ a.aquamarine:hover:before {
     visibility: visible;
     width: 100%;
 }
+
+.mobile {
+    display: none;
+}
+
 @media screen and (max-width: 570px) {
     html {
         font-size: 10px;
@@ -102,19 +107,32 @@ a.aquamarine:hover:before {
         font-size: 3rem;
     }
 
+    footer h2 {
+        margin-top: 0;
+    }
+
     video {
-        width: 50%;
+        width: 70%;
         height: auto;
     }
 
     main img {
-        width: 80%;
+        width: 90%;
         height: auto;
     }
 
     .phone {
-        width: 10%;
+        width: 7%;
         height: auto;
+        margin-top: 2rem;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    footer {
+        margin-top: 1rem;
     }
 
 }
