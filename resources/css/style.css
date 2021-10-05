@@ -2,6 +2,12 @@ html {
     font-size: 16px;
 }
 
+@media screen and (max-width: 570px) {
+    html {
+        font-size: 10px;
+    }
+}
+
 body {
     background-color: black;
     text-align: center;
@@ -22,7 +28,8 @@ a {
 }
 
 video {
-    margin: 1rem;
+    margin: 1rem auto;
+    width: 30%;
 }
 
 h2 {
@@ -34,6 +41,12 @@ p {
     font-size: 1.3125rem;
     color: gray;
 }
+
+main img {
+    width: 60%;
+    margin: 0 auto;
+}
+
 
 .phone {
     margin-top: 2rem;
